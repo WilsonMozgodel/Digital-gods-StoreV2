@@ -9,7 +9,7 @@ def process_payment(bot, call, order_number):
     if call.message:
         payment = Aaio()
         order_id = 'python_order_' + str(uuid.uuid4())
-        merchant_id = '70718908-23ad-435f-8ffa-71f4077b7145' # ID Вашего магазина
+        merchant_id = '' # ID Вашего магазина
         amount = 199 # Сумма к оплате
         currency = 'RUB' # Валюта заказа
         secret = '' # Секретный ключ №1 из настроек магазина
