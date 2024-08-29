@@ -12,7 +12,7 @@ def process_payment(bot, call, order_number):
         merchant_id = '70718908-23ad-435f-8ffa-71f4077b7145' # ID Вашего магазина
         amount = 199 # Сумма к оплате
         currency = 'RUB' # Валюта заказа
-        secret = '676986ec4af15551af7a79fc6cc6a4a2' # Секретный ключ №1 из настроек магазина
+        secret = '' # Секретный ключ №1 из настроек магазина
         desc = 'Discord Nitro' # Описание заказа
         lang = 'ru' # Язык формы
 
