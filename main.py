@@ -13,7 +13,7 @@ import threading
 from payment import process_payment, process_payment2, process_payment3, process_payment4, tg_pay, spotik
 
 
-bot = TeleBot('6709558983:AAFTU6vRTN4sNnvvWaYRzZf5_Fuib0DXZ4c')
+bot = TeleBot('')
 
 order_numbers = {}
 
